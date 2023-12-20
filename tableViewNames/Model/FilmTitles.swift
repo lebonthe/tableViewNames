@@ -1,0 +1,16 @@
+//
+//  FilmTitles.swift
+//  tableViewNames
+//
+//  Created by Min Hu on 2023/12/20.
+//
+
+import Foundation
+
+struct FilmsTitles: Decodable {
+    let filmTitles: [FilmTitles]
+}
+
+struct FilmTitles: Decodable {
+    let title: String
+}
